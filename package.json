@@ -1,0 +1,34 @@
+{
+  "name": "service-audit",
+  "version": "1.0.0",
+  "description": "Microservice to manage audit trails",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratyaman/service-audit.git"
+  },
+  "keywords": [
+    "microservice",
+    "audit",
+    "express",
+    "rest",
+    "websockets"
+  ],
+  "author": "Haci Murat Yaman",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/muratyaman/service-audit/issues"
+  },
+  "homepage": "https://github.com/muratyaman/service-audit",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.1",
+    "mongoose": "^4.12.0"
+  },
+  "devDependencies": {}
+}
