@@ -1,2 +1,2 @@
-# service-audit
+# service-audits
 Microservice to manage audit trails
